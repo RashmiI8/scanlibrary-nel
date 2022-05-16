@@ -65,6 +65,7 @@ public class ScanActivity extends Activity implements IScanner, ComponentCallbac
 
     @Override
     public void onTrimMemory(int level) {
+        console.log(level);
         switch (level) {
             case ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN:
                 /*
@@ -96,11 +97,11 @@ public class ScanActivity extends Activity implements IScanner, ComponentCallbac
                    If the event is TRIM_MEMORY_COMPLETE, the process will be one of
                    the first to be terminated.
                 */
-                new AlertDialog.Builder(this)
+            /*    new AlertDialog.Builder(this)
                         .setTitle(R.string.low_memory)
                         .setMessage(R.string.low_memory_message)
                         .create()
-                        .show();
+                        .show();*/
                 break;
             default:
                 /*
