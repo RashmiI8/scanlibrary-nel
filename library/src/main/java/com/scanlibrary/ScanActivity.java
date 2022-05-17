@@ -1,4 +1,4 @@
-package com.scanlibrary;
+package com.scanlibrary-nel;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -12,7 +12,7 @@ import android.util.Log;
 /**
  * Created by jhansi on 28/03/15.
  */
-public class ScanActivity extends Activity implements IScanner, ComponentCallbacks2 {
+public class ScanActivityNel extends Activity implements IScanner, ComponentCallbacks2 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
