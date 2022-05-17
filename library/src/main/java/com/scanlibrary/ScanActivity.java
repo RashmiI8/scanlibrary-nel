@@ -1,4 +1,4 @@
-package com.scanlibrary-nel;
+package com.scanlibrarynel;
 
 import android.app.Activity;
 import android.app.AlertDialog;
